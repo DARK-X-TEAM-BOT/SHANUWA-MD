@@ -4,7 +4,7 @@ cmd({
 
     pattern: "menu3",
 
-    react: "🛸",
+    react: "📃",
 
     alias: ["panel","list","commands"],
 
@@ -21,89 +21,147 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
 try{
-let madeMenu = `❁ ════ ❃•◯•❃ ════ ❁
+let madeMenu = `
 
-*⇆ ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ⇆*
 
      *${pushname}*
      
-❁ ════ ❃•◯•❃ ════ ❁
+╔═════════════════
+      *ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
+╚═════════════════
 
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ ғᴜʟʟ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ*
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━
+*╔══❮ DOWNLOAD COMMANDS ❯*
+║
+║📖 COMMAND: .play
+║ℹ️ Download Audio from yt
+║
+║📖 COMMAND: .song
+║ℹ️ Download song from yt
+║ 
+║📖 COMMAND: .apk
+║ℹ️ Download apk from playstore
+║ 
+║📖 COMMAND: .video
+║ℹ️ Download video from yt
+║
+║📖 COMMAND: .fb
+║ℹ️ Download  video from fb
+║ 
+║📖 COMMAND: .tk
+║ℹ️ Download video from tiktok
+║ 
+║📖 COMMAND: .ig
+║ℹ️ Download video from ig
+║ 
+║📖 COMMAND: .gdrive
+║ℹ️ Download drive files
+║ 
+║📖 COMMAND: .wamod
+║ℹ️ Download wamod apk
+║
+║📖 COMMAND: .img
+║ℹ️ Download image
+║
+║📖 COMMAND: .xvideo
+║ℹ️ Download xxx video
+╚════════════❒
 
-*ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛ ʟᴏᴠᴇʀ⁴³²👨🏻‍💻*
+*╔══❮ SEARCH COMMANDS ❯*
+
+║📖 COMMAND: .yts
+║ℹ️ Serch videos from yt
+╚════════════❒
+
+*╔══❮‍ MAIN COMMANDS ❯*
+║
+║📖 COMMAND: .alive
+║ℹ️ Check online or not
+║  
+║📖 COMMAND: .ping
+║ℹ️ Check bot speed
+║ 
+║📖 COMMAND: .menu
+║ℹ️ Nero main menu
+║
+║📖 COMMAND: .menu2
+║ℹ️ Nero main menu2
+║ 
+║📖 COMMAND: .ai
+║ℹ️ chat with ai bot
+║
+║📖 COMMAND: .system
+║ℹ️ check bot systems
+║
+║/📖 COMMAND: .owner
+║ℹ️ get owner info
+║ 
+║📖 COMMAND: .status
+║ℹ️ check bot runtime
+╚════════════❒
+
+*╔══❮ OTHER COMMANDS ❯*
+║
+║📖 COMMAND: .hirunews/news
+║ℹ️ Get news result for life
+║ 
+║📖 COMMAND: .wabeta
+║ℹ️ Get whatsapp beta news
+║
+║📖 COMMAND: .sitech
+║ℹ️ Get tech news
+║ 
+║📖 COMMAND: .nasa
+║ℹ️ Get nasa news
+╚════════════❒
+
+*╔══❮ GROUP COMMANDS ❯*
+║
+║📖 COMMAND: .mute
+║ℹ️ Mute group
+║
+║📖 COMMAND: .unmute
+║ℹ️ Unmute group
+║
+║📖 COMMAND: .left
+║ℹ️ left group
+║
+║📖 COMMAND: .jid
+║ℹ️ group jid
+╚═════════════❒
+
+*╔══❮ OWNER COMMANDS ❯*
+║
+║📖 COMMAND: .update
+║ℹ️ update bot velue 
+║
+║📖 COMMAND: .restart 
+║ℹ️ restart your bot
+╚════════════❒
+
+*╔═❮ CONVERT COMMANDS ❯*
+║
+║📖 COMMAND: .sticker
+║ℹ️ convert photo to sticker
+╚════════════❒
 
 
-*╭──❮ DOWNLOAD COMMANDS ❯*
-│
-│📖 COMMAND: .play
-│ℹ️ Download Audio from yt
-│ 
-│📖 COMMAND: .song
-│ℹ️ Download song from yt
-│ 
-│📖 COMMAND: .apk
-│ℹ️ Download apk from playstore
-│ 
-│📖 COMMAND: .video
-│ℹ️ Download video from yt
-│ 
-│📖 COMMAND: .fb
-│ℹ️ Download  video from fb
-│ 
-│📖 COMMAND: .tk
-│ℹ️ Download video from tiktok
-│ 
-│📖 COMMAND: .ig
-│ℹ️ Download video from ig
-│ 
-│📖 COMMAND: .gdrive
-│ℹ️ Download drive files
-│ 
-│📖 COMMAND: .wamod
-│ℹ️ Download wamod apk
-│
-│📖 COMMAND: .img
-│ℹ️ Download image
-│
-│📖 COMMAND: .xvideo
-│ℹ️ Download xxx video
-╰────────────⦁ 
 
-*╭──❮ SEARCH COMMANDS ❯*
-│
-│📖 COMMAND: .yts
-│ℹ️ Serch videos from yt
-╰────────────⦁  
+❒════════════❮❯════════════❒
 
-*╭──❮‍ MAIN COMMANDS ❯*
-│
-│📖 COMMAND: .alive
-│ℹ️ Check online or not
-│  
-│📖 COMMAND: .ping
-│ℹ️ Check bot speed
-│  
-│📖 COMMAND: .menu
-│ℹ️ Nero main menu
-│
-│📖 COMMAND: .menu2
-│ℹ️ Nero main menu2
-│ 
-│📖 COMMAND: .ai
-│ℹ️ chat with ai bot
-│
-│📖 COMMAND: .system
-│ℹ️ check bot systems
-│
-│📖 COMMAND: .owner
-│ℹ️ get owner info
-│ 
-│📖 COMMAND: .status
-│ℹ️ check bot runtime
-╰────────────⦁
+> *https://github.com/DARK-X-TEAM-BOT/SHANUWA-MD/tree/main*
+
+❒════════════❮❯════════════❒
+
+> *2024 ʙᴇꜱᴛ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ*
+`
+
+await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:madeMenu},{quoted:mek})
+
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
 
 *╭──❮ OTHER COMMANDS ❯*
 │

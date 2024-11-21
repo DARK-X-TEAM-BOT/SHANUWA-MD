@@ -23,7 +23,7 @@ async (conn, mek, m, { from, q, reply }) => {
         const translation = response.data.responseData.translatedText;
 
         const translationMessage = `
-🌍 *SILENT-SOBX-MD TRANSLATION* 🌍
+🌍 *SHANUWA-MD TRANSLATION* 🌍
 
 🔤 *Original*: ${textToTranslate}
 
@@ -31,11 +31,11 @@ async (conn, mek, m, { from, q, reply }) => {
 
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-*SILENT-SOBX-MD CREATION*`;
+*SHANUWA-MD CREATION*`;
 
         return reply(translationMessage);
     } catch (e) {
         console.log(e);
-        return reply("⚠️ An error occurred data while translating the your text. Please try again later🤕");
+        return reply("⚠️ An error occurred data while translating the your text. Please try again later😒");
     }
 });

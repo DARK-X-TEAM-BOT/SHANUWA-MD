@@ -4,7 +4,7 @@ const os = require("os")
 const {runtime} = require('../lib/functions')
 cmd({
     pattern: "system",
-    react: "♠️",
+    react: "👨‍💻",
     alias: ["uptime","status","runtime"],
     desc: "cheack uptime",
     category: "main",
@@ -12,7 +12,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let status = `*SILENT-SOBX-MD UPTIME LIST*
+let status = `*SHANUWA-MD UPTIME LIST*
 
 *UPTIME:*  ${runtime(process.uptime())}
 
@@ -20,7 +20,7 @@ let status = `*SILENT-SOBX-MD UPTIME LIST*
 
 *HOSTNAME:* ${os.hostname()}
 
-*OWNER:* *SILENT LOVER⁴³²*
+*OWNER:* *SHANUWA ID*
 `
 return reply(`${status}`)
 }catch(e){
